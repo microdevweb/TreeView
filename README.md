@@ -12,7 +12,7 @@ La licence est de type **CC-BY**
 
 **Tree est une module de gestion de listes multiples.**
 
-**Consultez lz manuel du développeur**
+**Consultez le manuel du développeur**
 
 **Lexique**
 + [Initialisation](https://github.com/microdevweb/TreeView/wiki/Manuel-du-d%C3%A9veloppeur#initialisation)
