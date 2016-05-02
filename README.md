@@ -29,3 +29,6 @@ La licence est de type **CC-BY**
   + [DisableCheckBox](https://github.com/microdevweb/TreeView/wiki/Manuel-du-d%C3%A9veloppeur#disablecheckboxidtreeitemstateb)
   + [DisableModeSelect](https://github.com/microdevweb/TreeView/wiki/Manuel-du-d%C3%A9veloppeur#disablemodeselectidtree)
   + [DisableItemSelected](https://github.com/microdevweb/TreeView/wiki/Manuel-du-d%C3%A9veloppeur#disableitemselectedidtreeitemstateb)
++ [Ajout de boutons de contrôle](https://github.com/microdevweb/TreeView/wiki/Manuel-du-d%C3%A9veloppeur#ajout-de-boutons-de-contr%C3%B4le)
+   + [AddItemButton](https://github.com/microdevweb/TreeView/wiki/Manuel-du-d%C3%A9veloppeur#additembuttonidtreeitemiconesizecallbackhelpmsgs)
+   + [ChangeBtItem](https://github.com/microdevweb/TreeView/wiki/Manuel-du-d%C3%A9veloppeur#changebtitemidtreeitembuttoniconesizecallback)
