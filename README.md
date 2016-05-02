@@ -18,7 +18,7 @@ La licence est de type **CC-BY**
 + [Initialisation](https://github.com/microdevweb/TreeView/wiki/Manuel-du-d%C3%A9veloppeur#initialisation)
   + [Create](https://github.com/microdevweb/TreeView/wiki/Manuel-du-d%C3%A9veloppeur#createidxiyiwihi)
 + [Ajout d'éléments](https://github.com/microdevweb/TreeView/wiki/Manuel-du-d%C3%A9veloppeur#additemidtreepositiontextimage0nivels0)
-  +[AddItem](https://github.com/microdevweb/TreeView/wiki/Manuel-du-d%C3%A9veloppeur#additemidtreepositiontextimage0nivels0)
+  + [AddItem](https://github.com/microdevweb/TreeView/wiki/Manuel-du-d%C3%A9veloppeur#additemidtreepositiontextimage0nivels0)
 + [Paramétrage des éléments](https://github.com/microdevweb/TreeView/wiki/Manuel-du-d%C3%A9veloppeur#param%C3%A9trage-des-%C3%A9l%C3%A9ments)
   + [SetData](https://github.com/microdevweb/TreeView/wiki/Manuel-du-d%C3%A9veloppeur#setdataidtreeitemtypevalue)
   + [DisableCheckBox](https://github.com/microdevweb/TreeView/wiki/Manuel-du-d%C3%A9veloppeur#disablecheckboxidtreeitemstateb)
