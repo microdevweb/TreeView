@@ -1,6 +1,8 @@
 # TreeView
 TreeView pour PureBasic
 
+Version : 2.1
+
 **Licence d'utilisation :**
 
 La licence est de type **CC-BY** 
