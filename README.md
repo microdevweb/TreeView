@@ -1,7 +1,7 @@
 # TreeView
 TreeView pour PureBasic
 
-Version : 2.1
+Version : 2.2
 
 **Licence d'utilisation :**
 
