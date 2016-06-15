@@ -38,6 +38,8 @@
 ; --> MOD AddItemButton(idTree,item,icone,size,*callBack,HelpMsg.s)
 ;--> ajout d'une bule d'aide au bouton
 ; Vers 2.1
+; Vers 2.2
+; --> FIXED evenement quand plusieurs Tree
 ;**************************************************************************************************************
 DeclareModule Tree
     #full=0
@@ -514,6 +516,10 @@ Module Tree
     Procedure Event()
         Protected X1,X2,Y1,Y2,W,H
         Static ClicOn.b=#False
+        Protected IdMap=GetGadgetData(EventGadget())
+        If Not FindMap(IdMap)
+            ProcedureReturn 
+        EndIf
         gMouseX=GetGadgetAttribute(myTree()\idCanvas,#PB_Canvas_MouseX)
         gMouseY=GetGadgetAttribute(myTree()\idCanvas,#PB_Canvas_MouseY)       
         Select EventType()
@@ -877,9 +883,9 @@ Module Tree
         
     EndProcedure
     Procedure InitEvent(id_tree)
-        ;           If FindMap(id,#False):ProcedureReturn 0:EndIf
-        ;           BindGadgetEvent(myTree()\idCanvas,@Event())
-        ;           ProcedureReturn #True
+        If FindMap(id,#True):ProcedureReturn #False:EndIf
+        BindGadgetEvent(myTree()\idCanvas,@Event())
+        ProcedureReturn #True
     EndProcedure
     Procedure Create(id,X.i,Y.i,W.i,H.i)
         If id=#PB_Any
@@ -899,6 +905,7 @@ Module Tree
             \HC=H-5
             \idScrollArea=ScrollAreaGadget(#PB_Any,X,Y,W,H,W-5,H-65)
             \idCanvas=CanvasGadget(#PB_Any,0,0,0,0,#PB_Canvas_Keyboard)
+            SetGadgetData(\idCanvas,id)
             CloseGadgetList()
             \CallBackSelected=-1
             \CallBackCheckBox=-1
@@ -3564,8 +3571,8 @@ Module Tree
     
 EndModule
 ; IDE Options = PureBasic 5.50 beta 1 (Windows - x64)
-; CursorPosition = 39
-; FirstLine = 24
-; Folding = TQB90FAICHxwnxHDyAAAAAgCkSSiQFECEoSVVSSSEhgIiS2Z5
-; Markers = 47,540,768
+; CursorPosition = 41
+; FirstLine = 18
+; Folding = TQB90fCICHxwnxPGkBAAAAAFcKJJCVQIQgqXVJJJRECiIKVnh
+; Markers = 49,546,774
 ; EnableXP
